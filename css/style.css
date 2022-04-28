@@ -151,3 +151,9 @@ nav a:hover{
 footer a:hover{
     color: white;
 }
+
+.carousel-item{
+    margin-left: 400px;
+    margin-top: 15px;
+}
+
