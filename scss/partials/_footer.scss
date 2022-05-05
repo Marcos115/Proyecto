@@ -2,7 +2,9 @@ $color:white;
 
 footer{
     text-align: right;
+    address a{
     &:hover{
     color: $color;
+        }
     }
 }
