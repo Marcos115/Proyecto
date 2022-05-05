@@ -1,0 +1,8 @@
+$color:white;
+
+footer{
+    text-align: right;
+    &:hover{
+    color: $color;
+    }
+}
