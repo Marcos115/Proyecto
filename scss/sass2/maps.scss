@@ -1,0 +1,7 @@
+@import "../variables/variables";
+$footer:($color:white,$alineacion-de-texto:right,);
+
+div{
+    background-color: map-get($footer, $color-fondo-footer );
+    text-align: map-get($footer , $alineacion-de-texto );
+}
