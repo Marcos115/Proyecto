@@ -82,88 +82,86 @@ nav a {
     }
 
     .noticia-1{
-        grid-area: noticia-1;
-        background-color: blueviolet;
-    }
-
-    @media screen and (max-width: 1000px){
-        .grid-container{
-            border: 1px solid black;
-            display: grid;
-            grid-template-columns: repeat(1, 100%);
-            grid-template-rows: repeat(1, 200px);
-            grid-template-areas: 
-            "casilla-1 casilla-1"
-            ;
-        }
-
-    .noticia-1{
-        grid-area: noticia-1;
-        background-color: rgb(63, 157, 211);
-    }
-}
-
-
-.grid2{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-}
-
-@media only screen and (min-width:620px) and (max-width:840px){
-    .grid2{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-    }
-}
-
-@media only screen and (max-width:619px){
-    .grid2{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-    }
-}
-
-
-.grid3{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-}
-
-@media only screen and (min-width:620px) and (max-width:840px){
-    .grid3{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-    }
-}
-
-@media only screen and (max-width:619px){
-    .grid3{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-    }
-}
-
-@media screen and (max-width: 1000px){
-    .grid4{
+      grid-area: noticia-1;
+      background-color: blueviolet;
+  }
+  @media screen and (max-width: 1000px){
+    .grid-container{
         border: 1px solid black;
         display: grid;
         grid-template-columns: repeat(1, 100%);
         grid-template-rows: repeat(1, 200px);
+        grid-template-areas: 
+        "casilla-1 casilla-1"
+        ;
     }
+
+.noticia-1{
+    grid-area: noticia-1;
+    background-color: rgb(63, 157, 211);
 }
+}
+
+.grid2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+@media only screen and (min-width:620px) and (max-width:840px){
+  .grid2{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width:619px){
+  .grid2{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+  }
+}
+
+.grid3{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+@media only screen and (min-width:620px) and (max-width:840px){
+  .grid3{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width:619px){
+  .grid3{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .grid4{
+      border: 1px solid black;
+      display: grid;
+      grid-template-columns: repeat(1, 100%);
+      grid-template-rows: repeat(1, 200px);
+  }
+}
+
 nav a:hover{
-    width: 150px;
-    height: 40px;
-    transition: height, width, 10s;
+  width: 150px;
+  height: 40px;
+  transition: height, width, 10s;
 }
 
 .carousel-item{
-    margin-left: 400px;
-    margin-top: 15px;
-}
+  margin-left: 400px;
+  margin-top: 15px;
+} 
