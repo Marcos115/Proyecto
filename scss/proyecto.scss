@@ -1,12 +1,20 @@
+@import "partials/header";
+
 @import "partials/footer";
 
-@import "variables/variables";
+@import "partials/index";
 
 @import "partials/fieldset";
+
+@import "partials/MyP";
+
+@import "partials/media";
 
 @import "sass2/extend.scss";
 
 @import "sass2/maps.scss";
 
-@import "sass2/mixins.scss"
+@import "sass2/mixins.scss";
+
+@import "variables/variables";
 

@@ -1,0 +1,19 @@
+/*Marcas y Prendas*/
+
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+
+.carousel-item {
+    margin-left: 400px;
+    margin-top: 15px;
+}

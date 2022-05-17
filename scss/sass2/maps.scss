@@ -1,7 +1,23 @@
 @import "../variables/variables";
-$footer:($color:white,$alineacion-de-texto:right,);
+/*Contacto*/
 
-div{
-    background-color: map-get($footer, $color-fondo-footer );
-    text-align: map-get($footer , $alineacion-de-texto );
+$General:(relleno:20px, margen:15px, tamaño-fuente:20px, color-fondo-general:black, color-general:white, );
+
+$Contacto:(color-fondo-contacto:white, alineacion-de-texto:left,);
+
+.grid4{
+    background-color: map-get($Contacto, color-fondo-contacto );
+    text-align: map-get($Contacto , alineacion-de-texto );
+}
+
+/*General*/
+.camelcase{
+    padding: map-get($General, relleno );
+    margin: map-get($General, margen );
+    font-size:map-get($General, tamaño-fuente );
+}
+
+body{
+    background-color:map-get($General, color-fondo-general );
+    color: map-get($General, color-general );
 }

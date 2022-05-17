@@ -1,0 +1,25 @@
+
+/*Index*/
+
+.local {
+    background-image: url(../img/local3.jpg);
+    color: violet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grid-container {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(1, 200px);
+    grid-template-areas:
+        "noticia-1 noticia-1"
+    ;
+    display: flex;
+    justify-content: center;
+}
+
+.noticia-1 {
+    grid-area: noticia-1;
+    background-color: blueviolet;
+}

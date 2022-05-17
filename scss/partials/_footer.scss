@@ -1,10 +1,22 @@
+/*Footer*/
+
 $color:white;
 
 footer{
     text-align: right;
     address a{
+        color:violet;
+        text-decoration: none;
     &:hover{
     color: $color;
         }
     }
 }
+
+.contacto a{
+    text-decoration: none;
+    color: violet;
+    &:hover{
+        color: $color;
+            }
+    }

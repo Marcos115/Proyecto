@@ -1,3 +1,4 @@
+
 @import "../variables/variables";
 
 @import "../sass2/extend.scss";
@@ -5,7 +6,6 @@
 @import "../sass2/mixins.scss";
 
 fieldset{
-    @extend .fieldset;
     .fieldset{
         @include estilo-de-borde;
     }
