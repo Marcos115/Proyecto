@@ -3,7 +3,7 @@
 
 $General:(relleno:20px, margen:15px, tamaño-fuente:20px, color-fondo-general:black, color-general:white, );
 
-$Contacto:(color-fondo-contacto:white, alineacion-de-texto:left,);
+$Contacto:(color-fondo-contacto:black, alineacion-de-texto:left,);
 
 .grid4{
     background-color: map-get($Contacto, color-fondo-contacto );
